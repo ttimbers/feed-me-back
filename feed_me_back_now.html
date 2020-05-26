@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Feed me back now:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Mine Çetinkaya-Rundel &amp; Tiffany Timbers" />
+    <script src="libs/header-attrs-2.1/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="slides-style.css" type="text/css" />
   </head>
@@ -94,7 +95,7 @@ mean[1]
 ]
 --
 .pull-right-narrow[
-&lt;img src="images/student.png" style="display: block; margin: auto 0 auto auto;" /&gt;
+&lt;img src="images/student.png" width="853" style="display: block; margin: auto 0 auto auto;" /&gt;
 ]
 
 ---
@@ -114,7 +115,7 @@ mean[1]
 
 
 ```
-## x `mean` is a function and a function doesn't have elements that can be subsetted with square brackets.
+## ✖ `mean` is a function and a function doesn't have elements that can be subsetted with square brackets.
 ```
 
 ```
@@ -152,7 +153,7 @@ class: middle
 ]
 ]
 .pull-right-narrow[
-&lt;img src="images/teacher.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/teacher.png" width="883" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -378,7 +379,7 @@ background-size: contain
 We're collecting examples of GitHub actions useful for checking data science assignments at [github.com/rundel/ghclass-actions](https://github.com/rundel/ghclass-actions).
 ]
 .pull-right[
-&lt;img src="images/ghclass-actions.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/ghclass-actions.png" width="2976" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -548,7 +549,7 @@ background-size: contain
 
 .center[
 ## 🔗 [bit.ly/feed-me-back](https://bit.ly/feed-me-back)
-]
+]                 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -598,32 +599,6 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
 // adds .remark-code-has-line-highlighted class to <pre> parent elements
 // of code chunks containing highlighted lines with class .remark-code-line-highlighted
 (function(d) {
@@ -641,6 +616,17 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   }
   preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
 })(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
 
 <script>
 slideshow._releaseMath = function(el) {
